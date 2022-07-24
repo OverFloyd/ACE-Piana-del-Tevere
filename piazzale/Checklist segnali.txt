@@ -1,0 +1,14 @@
+# Created: 25/04/2022
+
+VIA LIBERA
+1. Verifica avvenuta costruzione itinerari
+2. Disposizione a via libera
+3. Segnalazione avvenuta manovra sul quadro consensi
+
+VIA IMPEDITA
+1. Disposizione a via impedita (previa segnalazione sul registro)
+2. Segnalazione sul quadro consensi di ridisposizione a via impedita del segnale (come anomalia)
+3. Segnalazione avvenuta manovra sul quadro consensi
+
+Se il check 1 fallisce:
+4. Segnalazione anomalia sul quadro consensi

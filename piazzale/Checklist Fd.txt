@@ -1,0 +1,19 @@
+# Created: 25/04/2022
+
+LIBERAZIONE
+1. Controllo bloccamento
+2. Liberazione del Fd
+3. Segnalazione avvenuta manovra sul quadro consensi
+
+Se il check 1 fallisce:
+4. Segnalazione anomalia sul QC
+
+OCCUPAZIONE
+1. Bloccamento
+2. Segnalazione avvenuta manovra sul quadro consensi
+
+ALLARME MANOVRA INDEBITA
+1. Controllo posizione aghi
+2. Segnalazione anomalia in caso di esito positivo
+3. Spegnimento lampada bloccamento lato piazzale
+4. Spegnimento segnale collegato

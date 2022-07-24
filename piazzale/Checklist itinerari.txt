@@ -1,0 +1,18 @@
+# Created: 25/04/2022
+
+ABILITAZIONE
+1a. Verifica orientamento blocco
+2a. Verifica blocco deviatoi/Fd
+3a. Verifica corretta posizione dei deviatoi/Fd
+4a. Bloccamento enti di piazzale
+5a. Abilitazione itinerario
+6a. Segnalazione avvenuta manovra sul Quadro Consensi
+
+DISABILITAZIONE
+1b. Verifica segnali posti a via libera
+2b. Verifica effettivo impegno itinerario dopo autodisposizione a VI del segnale
+3b. Sbloccamento deviatoi
+4b. Segnalazione avvenuta manovra sul Quadro Consensi
+
+Se il check 1, 2 fallisce:
+1c. Segnalazione anomalia sul Quadro Consensi

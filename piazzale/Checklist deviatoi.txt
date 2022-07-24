@@ -1,0 +1,9 @@
+# Created: 25/04/2022
+
+1. Controllo bloccamento
+2. PER GLI INGLESI: la posizione del deviatoio attiguo non deve andare in conflitto
+3. Manovra del deviatoio
+4. Segnalazione avvenuta manovra sul quadro consensi
+
+Se i check 1, 2 o 3 falliscono:
+5. Segnalazione anomalia sul quadro consensi
