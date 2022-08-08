@@ -1,10 +1,10 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
 
 ###
 
 # COLLEGAMENTO DI SICUREZZA
-function pinkusfloydicus:pianadeltevere/piazzale/est/dev/cds_2
+function pinkusfloydicus:pianadeltevere/piazzale/est/dev/cds/2
 
 # DEVIATOIO INGLESE
 ## Check buffer
@@ -29,4 +29,4 @@ execute if block 500 64 -104 rail[shape=north_east] run setblock 467 51 -118 min
 ###
 
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear

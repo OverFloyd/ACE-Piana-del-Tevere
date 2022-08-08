@@ -19,4 +19,4 @@ setblock 454 51 -118 minecraft:air
 ###
 
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear

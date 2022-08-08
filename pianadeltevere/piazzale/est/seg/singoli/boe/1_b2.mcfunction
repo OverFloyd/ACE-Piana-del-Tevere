@@ -12,4 +12,4 @@ execute if block 493 61 -116 lime_concrete run setblock 493 61 -116 air
 ###
 
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear

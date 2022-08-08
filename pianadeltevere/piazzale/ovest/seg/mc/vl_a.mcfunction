@@ -32,4 +32,4 @@ execute if block 477 52 -118 air run say > Nessun itinerario impostato
 ###
 
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear

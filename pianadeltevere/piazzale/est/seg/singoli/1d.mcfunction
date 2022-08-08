@@ -1,5 +1,5 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
 
 # VI
 setblock 495 60 -117 minecraft:air
@@ -11,4 +11,4 @@ function pinkusfloydicus:pianadeltevere/piazzale/est/seg/singoli/dir/reset/1
 setblock 483 64 -115 air
 
 # Set buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/set
+function pinkusfloydicus:pianadeltevere/apparato/buffer/set

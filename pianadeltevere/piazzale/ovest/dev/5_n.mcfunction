@@ -1,11 +1,11 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
 
 ###
 
 # COLLEGAMENTO DI SICUREZZA
 ## Set buffer
-function pinkusfloydicus:pianadeltevere/piazzale/ovest/dev/cds_5
+function pinkusfloydicus:pianadeltevere/piazzale/ovest/dev/cds/5
 
 # DEVIATOIO INGLESE
 ## Check buffer
@@ -29,4 +29,4 @@ execute unless block 465 64 -116 rail[shape=north_east] run setblock 462 51 -118
 ###
 
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear

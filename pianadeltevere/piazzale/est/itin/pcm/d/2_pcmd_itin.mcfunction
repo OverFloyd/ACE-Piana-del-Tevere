@@ -1,5 +1,5 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
 
 # Cevizzano -> 1 NO
 ## Cevizzano -> 2 NO
@@ -14,4 +14,4 @@ function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
 #### 4 -> Marmicavi NO
 ##### 5 -> Marmicavi NO
 # Set Buffer
-execute if block 473 52 -133 air run execute if block 474 52 -133 air run execute if block 475 52 -133 air run execute if block 476 52 -133 air run execute if block 477 52 -133 air run execute if block 478 52 -133 air run execute if block 479 52 -133 air run execute if block 480 52 -133 air run execute if block 482 52 -133 air run execute if block 483 52 -133 air run execute if block 484 52 -133 air run function pinkusfloydicus:pianadeltevere/piazzale/buffer/set
+execute if block 473 52 -133 air run execute if block 474 52 -133 air run execute if block 475 52 -133 air run execute if block 476 52 -133 air run execute if block 477 52 -133 air run execute if block 478 52 -133 air run execute if block 479 52 -133 air run execute if block 480 52 -133 air run execute if block 482 52 -133 air run execute if block 483 52 -133 air run execute if block 484 52 -133 air run function pinkusfloydicus:pianadeltevere/apparato/buffer/set

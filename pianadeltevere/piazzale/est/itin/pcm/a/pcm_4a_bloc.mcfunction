@@ -1,12 +1,12 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
 
 ###
 
 # CONTROLLO BLOCCO DEVIATOI
 ## 1a, 2b
 ### Set buffer
-execute unless block 503 61 -107 red_concrete run execute unless block 502 61 -107 red_concrete run function pinkusfloydicus:pianadeltevere/piazzale/buffer/set
+execute unless block 503 61 -107 red_concrete run execute unless block 502 61 -107 red_concrete run function pinkusfloydicus:pianadeltevere/apparato/buffer/set
 
 ###
 

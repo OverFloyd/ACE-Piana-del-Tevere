@@ -1,11 +1,11 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
 
 ###
 
 # CONTROLLO POSIZIONE (4 R)
 ## Set buffer
-execute if block 465 52 -118 redstone_block run function pinkusfloydicus:pianadeltevere/piazzale/buffer/set
+execute if block 465 52 -118 redstone_block run function pinkusfloydicus:pianadeltevere/apparato/buffer/set
 
 ###
 

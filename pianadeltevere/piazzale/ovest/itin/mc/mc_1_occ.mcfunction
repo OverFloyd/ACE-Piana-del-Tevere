@@ -1,8 +1,8 @@
 # Clears buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
 
 # Checks QC & resets buffer (controllo se il segnale è effettivamente posta a VI)
-execute if block 455 53 -118 redstone_block run function pinkusfloydicus:pianadeltevere/piazzale/buffer/set
+execute if block 455 53 -118 redstone_block run function pinkusfloydicus:pianadeltevere/apparato/buffer/set
 
 ###
 

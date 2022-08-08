@@ -1,6 +1,6 @@
 # VERIFICA PROTEZIONE A VI
 ## Check QC
-execute unless block 472 52 -118 redstone_block run function pinkusfloydicus:pianadeltevere/piazzale/buffer/set
+execute unless block 472 52 -118 redstone_block run function pinkusfloydicus:pianadeltevere/apparato/buffer/set
 
 ###
 

@@ -1,6 +1,6 @@
 # VERIFICA SEGNALE POSTO A VIA IMPEDITA
 ## Checks QC
-execute if block 470 52 -118 air run function pinkusfloydicus:pianadeltevere/piazzale/buffer/set
+execute if block 470 52 -118 air run function pinkusfloydicus:pianadeltevere/apparato/buffer/set
 
 ###
 

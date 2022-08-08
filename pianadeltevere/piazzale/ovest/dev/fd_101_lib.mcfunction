@@ -1,11 +1,11 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
 
 ###
 
 # COLLEGAMENTO DI SICUREZZA
 ## Set buffer
-function pinkusfloydicus:pianadeltevere/piazzale/ovest/dev/cds_101
+function pinkusfloydicus:pianadeltevere/piazzale/ovest/dev/cds/101
 
 # MANOVRA
 ## Check buffer
@@ -26,4 +26,4 @@ execute unless block 477 52 -118 redstone_block run setblock 456 51 -118 minecra
 ###
 
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear

@@ -1,10 +1,10 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
 
 ###
 
 # VERIFICA ORIENTAMENTO DEL BLOCCO
-function pinkusfloydicus:pianadeltevere/piazzale/blocco/check/can_sx_per
+function pinkusfloydicus:pianadeltevere/apparato/blocco/check/can_sx_per
 
 # VERIFICA BLOCCO DEVIATOI
 ## Set buffer
@@ -30,4 +30,4 @@ execute unless block 477 52 -118 redstone_block run setblock 464 51 -133 polishe
 ###
 
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear

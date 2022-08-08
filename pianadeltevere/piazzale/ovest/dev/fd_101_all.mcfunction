@@ -1,11 +1,11 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
 
 ###
 
 # Controllo manovra indebita
 ## Set buffer
-execute if block 406 68 -120 minecraft:redstone_torch run execute if block 405 70 -119 rail[shape=south_west] run function pinkusfloydicus:pianadeltevere/piazzale/buffer/set
+execute if block 406 68 -120 minecraft:redstone_torch run execute if block 405 70 -119 rail[shape=south_west] run function pinkusfloydicus:pianadeltevere/apparato/buffer/set
 
 ###
 
@@ -31,4 +31,4 @@ execute if block 477 52 -118 redstone_block run function pinkusfloydicus:pianade
 ###
 
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
