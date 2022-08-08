@@ -3,7 +3,7 @@ Funzioni costituenti la logica dell'ACE della stazione di Piana del Tevere. Per 
 
 Per le abbreviazioni consultare la relativa [sezione](#abbreviazioni).
 
-![piano schematico](https://github.com/OverFloyd/ACE-Piana-del-Tevere/blob/master/piazzale/Rev.%202.5%20(2022-06-28).png)
+![piano schematico](https://github.com/OverFloyd/ACE-Piana-del-Tevere/blob/master/Rev.%202.5%20(2022-06-28).png)
 
 ## Storia ##
 La stazione di Piana del Tevere è una delle più anziane in servizio in Sider, attivata nell'aprile del 2015. Venne dotata inizialmente di un ACD (essenzialmente un ACE per il solo comando centralizzato dei deviatoi), poi mutato in ACE all'aggiunta del segnalamento di protezione.
