@@ -9,7 +9,7 @@ function pianadeltevere:piazzale/est/itin/gc/d/prot_gc
 
 # VERIFICA EFFETTIVO IMPEGNO
 ## Check buffer
-execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/itin/gc/gc_1_occ
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/itin/gc/occ/gc_1
 
 # VERIFICA ITINERARI
 ## Check buffer

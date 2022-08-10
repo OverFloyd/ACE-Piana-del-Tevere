@@ -9,7 +9,7 @@ function pianadeltevere:piazzale/est/itin/cev/d/prot_cev
 
 # VERIFICA EFFETTIVO IMPEGNO
 ## Check buffer
-execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/itin/cev/cev_1_occ
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/itin/cev/occ/cev_1
 
 # DISABILITAZIONE E CONSENSO
 ## Check buffer

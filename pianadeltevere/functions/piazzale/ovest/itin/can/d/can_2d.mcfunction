@@ -10,7 +10,7 @@ execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ove
 
 # VERIFICA EFFETTIVO IMPEGNO
 ## Checks buffer
-execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/itin/can/can_2_occ
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/itin/can/occ/can_2
 
 # DISABILITAZIONE E CONSENSO
 ## Checks buffer

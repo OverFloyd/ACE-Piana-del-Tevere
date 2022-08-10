@@ -10,7 +10,7 @@ function pianadeltevere:piazzale/ovest/itin/can/d/3_cand_itin
 
 # VERIFICA EFFETTIVO IMPEGNO
 ## Check buffer
-execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/itin/can/3_can_occ
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/itin/can/occ/3_can
 
 # DISABILITAZIONE E CONSENSO
 ## Check buffer
