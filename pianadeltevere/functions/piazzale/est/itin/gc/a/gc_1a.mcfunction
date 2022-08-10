@@ -9,9 +9,8 @@ function pianadeltevere:apparato/buffer/clear
 function pianadeltevere:piazzale/est/itin/cev/a/cev_1a_bloc
 
 # VERIFICA POSIZIONE DEVIATOI
-## Riutilizzato da /cev
 ## Checks buffer
-execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/itin/cev/a/cev_1a_dev
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/itin/gc/a/gc_1a_dev
 
 # BLOCCAMENTO DEVIATOI e ABILITAZIONE
 ## Checks buffer

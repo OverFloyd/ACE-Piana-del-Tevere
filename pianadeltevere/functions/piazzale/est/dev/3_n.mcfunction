@@ -9,19 +9,19 @@ function pianadeltevere:piazzale/est/dev/cds/3
 
 # MANOVRA
 ## Checks buffer
-execute if score @p buffer_10 matches 1 run setblock 501 62 -110 minecraft:air
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/dev/pos/3n
 
 # QUADRO CONSENSI
-execute if block 501 64 -110 rail[shape=north_east] run setblock 466 53 -118 minecraft:redstone_block
-execute if block 501 64 -110 rail[shape=north_east] run setblock 466 52 -118 minecraft:air
+execute if block 501 64 -110 rail[shape=east_west] run setblock 466 53 -118 minecraft:redstone_block
+execute if block 501 64 -110 rail[shape=east_west] run setblock 466 52 -118 minecraft:air
 
 ###
 
 # ANOMALIA: generica (QC)
-execute unless block 501 64 -110 rail[shape=north_east] run setblock 466 51 -118 minecraft:polished_andesite
+execute unless block 501 64 -110 rail[shape=east_west] run setblock 466 51 -118 minecraft:polished_andesite
 
 # Reset anomalia
-execute if block 501 64 -110 rail[shape=north_east] run setblock 466 51 -118 minecraft:air
+execute if block 501 64 -110 rail[shape=east_west] run setblock 466 51 -118 minecraft:air
 
 ###
 

@@ -8,8 +8,9 @@ function pianadeltevere:apparato/buffer/clear
 function pianadeltevere:piazzale/ovest/itin/mc/a/mc_1a_bloc
 
 # VERIFICA POSIZIONE DEVIATOI
+## Riciclato da 1_mca
 ## Check buffer
-execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/itin/mc/a/mc_1a_dev
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/itin/mc/a/1_mca_dev
 
 # BLOCCAMENTO DEVIATOI e ABILITAZIONE
 ## Check buffer

@@ -9,7 +9,7 @@ function pianadeltevere:piazzale/ovest/dev/cds/10
 
 # MANOVRA
 ## Check buffer
-execute if score @p buffer_10 matches 1 run setblock 450 62 -113 minecraft:redstone_torch
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/dev/pos/10r
 
 # QUADRO CONSENSI
 execute if block 450 64 -113 rail[shape=south_west] run setblock 457 53 -118 minecraft:air

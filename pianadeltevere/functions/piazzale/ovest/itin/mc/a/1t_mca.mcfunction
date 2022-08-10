@@ -3,9 +3,9 @@ function pianadeltevere:apparato/buffer/clear
 
 ###
 
-# VERIFICA BLOCCO DEVIATOI (RIUTILIZZATO DA MC_1)
+# VERIFICA BLOCCO DEVIATOI (RIUTILIZZATO DA MC_1t)
 ## Set buffer
-function pianadeltevere:piazzale/ovest/itin/mc/a/mc_1a_bloc
+function pianadeltevere:piazzale/ovest/itin/mc/a/mc_1ta_bloc
 
 # VERIFICA POSIZIONE DEVIATOI (RIUTILIZZATO DA MC_1t)
 ## Check buffer

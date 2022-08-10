@@ -3,9 +3,9 @@ function pianadeltevere:apparato/buffer/clear
 
 ###
 
-# CONTROLLO POSIZIONE (3, 4 N)
+# CONTROLLO POSIZIONE (1, 3 N)
 ## Set buffer
-execute if block 465 53 -118 redstone_block run execute if block 466 53 -118 redstone_block run function pianadeltevere:apparato/buffer/set
+execute if block 468 53 -118 redstone_block run execute if block 466 53 -118 redstone_block run function pianadeltevere:apparato/buffer/set
 
 ###
 

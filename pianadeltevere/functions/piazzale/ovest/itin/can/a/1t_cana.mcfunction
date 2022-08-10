@@ -4,15 +4,16 @@ function pianadeltevere:apparato/buffer/clear
 ###
 
 # VERIFICA ORIENTAMENTO DEL BLOCCO
+## Set buffer
 function pianadeltevere:apparato/blocco/check/can_sx_per
 
 # VERIFICA BLOCCO DEVIATOI
-## Set buffer
-function pianadeltevere:piazzale/ovest/itin/can/a/1t_cana_bloc
-
-# VERIFICA POSIZIONE DEVIATOI (RICICLATO DA CAN_1)
 ## Check buffer
-execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/itin/can/a/can_1a_dev
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/itin/can/a/1t_cana_bloc
+
+# VERIFICA POSIZIONE DEVIATOI
+## Check buffer
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/itin/can/a/1t_cana_dev
 
 # BLOCCAMENTO DEVIATOI e ABILITAZIONE
 ## Check buffer

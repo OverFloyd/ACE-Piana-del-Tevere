@@ -2,7 +2,7 @@
 function pianadeltevere:apparato/buffer/clear
 
 # VI
-setblock 499 64 -103 minecraft:air
+setblock 498 64 -103 minecraft:air
 
 # ABILITAZIONE TRANSITO
 setblock 483 64 -105 air
