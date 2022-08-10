@@ -4,11 +4,11 @@ function pianadeltevere:piazzale/est/seg/pcm/qc/vl_p
 
 # VERIFICA AVVENUTA COSTRUZIONE ITINERARI
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/seg/pcm/itin/vl_p
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/pcm/itin/vl_p
 
 # QUADRO CONSENSI
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/seg/pcm/vl_p_res
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/pcm/vl_p_res
 
 ###
 
@@ -18,8 +18,8 @@ setblock 472 51 -118 minecraft:air
 
 ## Segnalazione (QC / console)
 ### Check buffer
-execute if block 477 52 -118 air run setblock 472 51 -118 minecraft:polished_andesite
-execute if block 477 52 -118 air run say > Nessun itinerario impostato
+execute unless score @p buffer_10 matches 1 run setblock 472 51 -118 minecraft:polished_andesite
+execute unless score @p buffer_10 matches 1 run say > Nessun itinerario impostato
 
 ###
 

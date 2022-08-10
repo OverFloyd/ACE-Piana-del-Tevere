@@ -10,4 +10,4 @@ execute if block 487 52 -122 redstone_block run execute if block 487 53 -122 air
 
 # ANOMALIA
 ## Check buffer
-execute unless block 477 52 -118 redstone_block run say "Blocco non orientato correttamente"
+execute unless score @p buffer_10 matches 1 run say "Blocco non orientato correttamente"

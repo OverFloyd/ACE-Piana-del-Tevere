@@ -6,7 +6,7 @@ function pinkusfloydicus:linee/ba/pianadeltevere_cancelletti/chunkloader
 function pianadeltevere:linea/cancelletti/pr_ver
 
 ## MANOVRA INVERSIONE DI BLOCCO
-execute if block 477 52 -118 redstone_block run function pianadeltevere:linea/cancelletti/pr_seg
+execute if score @p buffer_10 matches 1 run function pianadeltevere:linea/cancelletti/pr_seg
 
 ## SCARICAMENTO CHUNKS
 function pinkusfloydicus:linee/ba/pianadeltevere_cancelletti/chunkunloader
@@ -14,7 +14,7 @@ function pinkusfloydicus:linee/ba/pianadeltevere_cancelletti/chunkunloader
 ###
 
 # QUADRO CONSENSI
-execute if block 477 52 -118 redstone_block run setblock 487 52 -122 minecraft:redstone_block
-execute if block 477 52 -118 redstone_block run setblock 487 53 -122 minecraft:air
+execute if score @p buffer_10 matches 1 run setblock 487 52 -122 minecraft:redstone_block
+execute if score @p buffer_10 matches 1 run setblock 487 53 -122 minecraft:air
 
 function pianadeltevere:apparato/buffer/clear

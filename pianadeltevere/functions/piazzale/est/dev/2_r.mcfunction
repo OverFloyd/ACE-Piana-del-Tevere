@@ -8,7 +8,7 @@ function pianadeltevere:piazzale/est/dev/cds/2
 
 # MANOVRA
 ## Check buffer
-execute if block 477 52 -118 redstone_block run setblock 500 62 -104 minecraft:redstone_torch
+execute if score @p buffer_10 matches 1 run setblock 500 62 -104 minecraft:redstone_torch
 
 # QUADRO CONSENSI
 execute if block 500 64 -104 rail[shape=north_west] run setblock 467 53 -118 minecraft:air

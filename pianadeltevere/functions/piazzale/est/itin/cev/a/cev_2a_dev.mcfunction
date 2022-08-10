@@ -13,17 +13,17 @@ execute if block 466 53 -118 redstone_block run execute if block 464 53 -118 red
 ## Dev 3
 ### Segnalazione (QC / console)
 #### Checks buffer
-execute unless block 477 52 -118 redstone_block run execute unless block 466 53 -118 redstone_block run setblock 466 51 -118 polished_andesite
-execute unless block 477 52 -118 redstone_block run execute unless block 466 53 -118 redstone_block run say > Dev. 3 richiesto in posizione NORMALE
+execute unless score @p buffer_10 matches 1 run execute unless block 466 53 -118 redstone_block run setblock 466 51 -118 polished_andesite
+execute unless score @p buffer_10 matches 1 run execute unless block 466 53 -118 redstone_block run say > Dev. 3 richiesto in posizione NORMALE
 
 ## Dev 4
 ### Segnalazione (QC / console)
 #### Checks buffer
-execute unless block 477 52 -118 redstone_block run execute unless block 465 52 -118 redstone_block run setblock 465 51 -118 polished_andesite
-execute unless block 477 52 -118 redstone_block run execute unless block 465 52 -118 redstone_block run say > Dev. 4 richiesto in posizione ROVESCIA
+execute unless score @p buffer_10 matches 1 run execute unless block 465 52 -118 redstone_block run setblock 465 51 -118 polished_andesite
+execute unless score @p buffer_10 matches 1 run execute unless block 465 52 -118 redstone_block run say > Dev. 4 richiesto in posizione ROVESCIA
 
 ## Dev 11
 ### Segnalazione (QC / console)
 #### Checks buffer
-execute unless block 477 52 -118 redstone_block run execute unless block 464 53 -118 redstone_block run setblock 464 51 -118 polished_andesite
-execute unless block 477 52 -118 redstone_block run execute unless block 464 53 -118 redstone_block run say > Dev. 11 richiesto in posizione NORMALE
+execute unless score @p buffer_10 matches 1 run execute unless block 464 53 -118 redstone_block run setblock 464 51 -118 polished_andesite
+execute unless score @p buffer_10 matches 1 run execute unless block 464 53 -118 redstone_block run say > Dev. 11 richiesto in posizione NORMALE

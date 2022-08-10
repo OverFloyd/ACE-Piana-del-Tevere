@@ -10,7 +10,7 @@ execute if block 474 52 -118 redstone_block run function pianadeltevere:apparato
 
 ### Manovra a VI (soft)
 #### RIUTILIZZATA DAL SEGNALAMENTO
-execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/ovest/seg/mc/itin/vi_p
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/seg/mc/itin/vi_p
 
 ## Anomalia su QC
-execute if block 477 52 -118 redstone_block run setblock 474 51 -118 minecraft:polished_andesite
+execute if score @p buffer_10 matches 1 run setblock 474 51 -118 minecraft:polished_andesite

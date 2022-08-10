@@ -4,11 +4,11 @@ function pianadeltevere:piazzale/ovest/seg/mc/qc/vi_a
 
 # MANOVRA A VI
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/ovest/seg/mc/prot_d
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/seg/mc/prot_d
 
 # QUADRO CONSENSI
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/ovest/seg/mc/vi_a_res
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/seg/mc/vi_a_res
 
 ###
 

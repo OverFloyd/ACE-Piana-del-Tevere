@@ -4,19 +4,19 @@ function pianadeltevere:piazzale/est/seg/cev/qc/vl_a
 
 # VERIFICA AVVENUTA COSTRUZIONE ITINERARI
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/seg/cev/itin/vl_a
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/cev/itin/vl_a
 
 # VERIFICA OCCUPAZIONE CdB
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/seg/cev/cdb/vl_a
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/cev/cdb/vl_a
 
 # MANOVRA A VL
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/seg/cev/prot_sa
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/cev/prot_sa
 
 # QUADRO CONSENSI
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/seg/cev/vl_a_res
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/cev/vl_a_res
 
 ###
 
@@ -26,7 +26,7 @@ setblock 469 51 -118 minecraft:air
 
 ## Segnalazione (QC / console)
 ### Check buffer
-execute if block 477 52 -118 air run setblock 469 51 -118 minecraft:polished_andesite
+execute unless score @p buffer_10 matches 1 run setblock 469 51 -118 minecraft:polished_andesite
 
 ###
 

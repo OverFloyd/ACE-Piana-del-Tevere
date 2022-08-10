@@ -4,7 +4,7 @@
 execute if block 455 52 -118 redstone_block run function pianadeltevere:apparato/buffer/clear
 
 ### Manovra a VI (soft)
-execute if block 477 52 -118 air run function pianadeltevere:piazzale/ovest/seg/mc/prot_d
+execute unless score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/seg/mc/prot_d
 
 ## Anomalia su QC
-execute if block 477 52 -118 air run setblock 455 51 -118 minecraft:polished_andesite
+execute unless score @p buffer_10 matches 1 run setblock 455 51 -118 minecraft:polished_andesite

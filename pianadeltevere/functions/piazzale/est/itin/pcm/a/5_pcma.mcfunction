@@ -9,11 +9,11 @@ function pianadeltevere:piazzale/est/itin/pcm/a/5_pcma_bloc
 
 # VERIFICA POSIZIONE DEVIATOI
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/itin/pcm/a/5_pcma_dev
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/itin/pcm/a/5_pcma_dev
 
 # BLOCCAMENTO DEVIATOI e ABILITAZIONE
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/itin/pcm/a/5_pcma_result
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/itin/pcm/a/5_pcma_result
 
 ###
 
@@ -22,7 +22,7 @@ setblock 484 51 -133 air
 
 # ANOMALIA: generica (Quadro Consensi)
 ## Check buffer
-execute unless block 477 52 -118 redstone_block run setblock 484 51 -133 polished_andesite
+execute unless score @p buffer_10 matches 1 run setblock 484 51 -133 polished_andesite
 
 ###
 

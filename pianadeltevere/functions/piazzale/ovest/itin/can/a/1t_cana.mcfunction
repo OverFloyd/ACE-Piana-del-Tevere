@@ -12,11 +12,11 @@ function pianadeltevere:piazzale/ovest/itin/can/a/1t_cana_bloc
 
 # VERIFICA POSIZIONE DEVIATOI (RICICLATO DA CAN_1)
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/ovest/itin/can/a/can_1a_dev
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/itin/can/a/can_1a_dev
 
 # BLOCCAMENTO DEVIATOI e ABILITAZIONE
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/ovest/itin/can/a/1t_cana_result
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/itin/can/a/1t_cana_result
 
 ###
 
@@ -25,7 +25,7 @@ setblock 464 51 -133 air
 
 # ANOMALIA: generica (Quadro Consensi)
 ## Check buffer
-execute unless block 477 52 -118 redstone_block run setblock 464 51 -133 polished_andesite
+execute unless score @p buffer_10 matches 1 run setblock 464 51 -133 polished_andesite
 
 ###
 

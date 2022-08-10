@@ -8,11 +8,11 @@ function pianadeltevere:piazzale/ovest/dev/cds/6
 
 # DEVIATOIO INGLESE
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/ovest/dev/6_r_ing
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/dev/6_r_ing
 
 # MANOVRA
 ## Check buffer
-execute if block 477 52 -118 redstone_block run setblock 464 62 -116 minecraft:redstone_torch
+execute if score @p buffer_10 matches 1 run setblock 464 62 -116 minecraft:redstone_torch
 
 # QUADRO CONSENSI
 execute if block 464 64 -116 rail[shape=south_west] run setblock 461 53 -118 minecraft:air

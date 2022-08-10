@@ -13,4 +13,4 @@ execute if block 474 52 -133 redstone_block run function pianadeltevere:apparato
 ###
 
 # ANOMALIA
-execute if block 477 52 -118 air run say > Nessun itinerario impostato
+execute unless score @p buffer_10 matches 1 run say > Nessun itinerario impostato

@@ -14,14 +14,14 @@ execute unless block 452 61 -110 red_concrete run execute unless block 456 61 -1
 ## Dev 10a
 ### Segnalazione (console)
 #### Check buffer
-execute unless block 477 52 -118 redstone_block run execute if block 452 61 -110 red_concrete run say > Dev. 10a già bloccato da un altro itinerario
+execute unless score @p buffer_10 matches 1 run execute if block 452 61 -110 red_concrete run say > Dev. 10a già bloccato da un altro itinerario
 
 ## Dev 9
 ### Segnalazione (console)
 #### Check buffer
-execute unless block 477 52 -118 redstone_block run execute if block 458 61 -113 red_concrete run execute if block 456 61 -110 red_concrete run say > Dev. 9 già bloccato da un altro itinerario
+execute unless score @p buffer_10 matches 1 run execute if block 458 61 -113 red_concrete run execute if block 456 61 -110 red_concrete run say > Dev. 9 già bloccato da un altro itinerario
 
 ## Dev 6b
 ### Segnalazione (console)
 #### Check buffer
-execute unless block 477 52 -118 redstone_block run execute if block 462 61 -113 red_concrete run say > Dev. 6b già bloccato da un altro itinerario
+execute unless score @p buffer_10 matches 1 run execute if block 462 61 -113 red_concrete run say > Dev. 6b già bloccato da un altro itinerario

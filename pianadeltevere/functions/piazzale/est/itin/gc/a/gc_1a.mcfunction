@@ -11,11 +11,11 @@ function pianadeltevere:piazzale/est/itin/cev/a/cev_1a_bloc
 # VERIFICA POSIZIONE DEVIATOI
 ## Riutilizzato da /cev
 ## Checks buffer
-execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/itin/cev/a/cev_1a_dev
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/itin/cev/a/cev_1a_dev
 
 # BLOCCAMENTO DEVIATOI e ABILITAZIONE
 ## Checks buffer
-execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/itin/gc/a/gc_1a_result
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/itin/gc/a/gc_1a_result
 
 ###
 
@@ -24,7 +24,7 @@ setblock 473 51 -133 air
 
 # ANOMALIA: generica (Quadro Consensi)
 ## Checks buffer
-execute unless block 477 52 -118 redstone_block run setblock 475 51 -133 polished_andesite
+execute unless score @p buffer_10 matches 1 run setblock 475 51 -133 polished_andesite
 
 ###
 
