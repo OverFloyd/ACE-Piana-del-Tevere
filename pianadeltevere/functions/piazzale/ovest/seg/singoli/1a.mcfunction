@@ -1,5 +1,5 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear
 
 # VL
 setblock 469 60 -117 minecraft:redstone_torch
@@ -8,4 +8,4 @@ setblock 469 60 -117 minecraft:redstone_torch
 setblock 483 64 -115 redstone_torch
 
 # Set buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/set
+function pianadeltevere:apparato/buffer/set

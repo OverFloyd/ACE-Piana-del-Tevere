@@ -1,5 +1,5 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear
 
 # VI
 setblock 500 60 -108 minecraft:air
@@ -8,4 +8,4 @@ setblock 500 60 -108 minecraft:air
 setblock 483 64 -106 air
 
 # Set buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/set
+function pianadeltevere:apparato/buffer/set

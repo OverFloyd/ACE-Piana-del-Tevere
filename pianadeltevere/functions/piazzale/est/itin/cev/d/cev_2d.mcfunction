@@ -1,19 +1,19 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear
 
 ###
 
 # VERIFICA SEGNALE POSTO A VIA LIBERA
 ## Set buffer
-function pinkusfloydicus:pianadeltevere/piazzale/est/itin/cev/d/prot_cev
+function pianadeltevere:piazzale/est/itin/cev/d/prot_cev
 
 # VERIFICA EFFETTIVO IMPEGNO
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pinkusfloydicus:pianadeltevere/piazzale/est/itin/cev/cev_2_occ
+execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/itin/cev/cev_2_occ
 
 # DISABILITAZIONE E CONSENSO
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pinkusfloydicus:pianadeltevere/piazzale/est/itin/cev/d/cev_2d_result
+execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/itin/cev/d/cev_2d_result
 
 ###
 
@@ -27,4 +27,4 @@ setblock 474 51 -133 air
 ###
 
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear

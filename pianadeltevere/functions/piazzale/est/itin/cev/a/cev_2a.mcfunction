@@ -1,19 +1,19 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear
 
 ###
 
-# CONTROLLO BLOCCO DEVIATOI
+# VERIFICA BLOCCO DEVIATOI
 ## Set buffer
-function pinkusfloydicus:pianadeltevere/piazzale/est/itin/cev/a/cev_2a_bloc
+function pianadeltevere:piazzale/est/itin/cev/a/cev_2a_bloc
 
 # VERIFICA POSIZIONE DEVIATOI
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pinkusfloydicus:pianadeltevere/piazzale/est/itin/cev/a/cev_2a_dev
+execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/itin/cev/a/cev_2a_dev
 
 # BLOCCAMENTO DEVIATOI e ABILITAZIONE
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pinkusfloydicus:pianadeltevere/piazzale/est/itin/cev/a/cev_2a_result
+execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/itin/cev/a/cev_2a_result
 
 ###
 
@@ -27,4 +27,4 @@ execute unless block 477 52 -118 redstone_block run setblock 474 51 -133 polishe
 ###
 
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear

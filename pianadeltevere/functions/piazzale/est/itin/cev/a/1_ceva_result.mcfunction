@@ -1,5 +1,5 @@
 # BLOCCAMENTO DEVIATOI
-function pinkusfloydicus:pianadeltevere/piazzale/est/dev/aghi/4a_bloc
+function pianadeltevere:piazzale/est/dev/aghi/4a_bloc
 
 # ABILITAZIONE
 setblock 483 64 -115 redstone_torch

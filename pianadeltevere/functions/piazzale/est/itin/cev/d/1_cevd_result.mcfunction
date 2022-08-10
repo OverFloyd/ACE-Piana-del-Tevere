@@ -1,5 +1,5 @@
 # SBLOCCAMENTO DEVIATOI
-function pinkusfloydicus:pianadeltevere/piazzale/est/dev/aghi/4a_unbloc
+function pianadeltevere:piazzale/est/dev/aghi/4a_unbloc
 
 # QUADRO CONSENSI
 setblock 477 53 -133 redstone_block

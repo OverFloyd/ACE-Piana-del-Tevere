@@ -1,5 +1,5 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/clear
+function pianadeltevere:apparato/buffer/clear
 
 # VL
 setblock 465 60 -108 minecraft:air
@@ -8,4 +8,4 @@ setblock 465 60 -108 minecraft:air
 setblock 483 64 -106 air
 
 # Set buffer
-function pinkusfloydicus:pianadeltevere/piazzale/buffer/set
+function pianadeltevere:apparato/buffer/set

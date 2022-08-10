@@ -1,20 +1,20 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear
 
 ###
 
 # VERIFICA BLOCCO DEVIATOI
 ## Set buffer
-function pinkusfloydicus:pianadeltevere/piazzale/est/itin/gc/a/2_gca_bloc
+function pianadeltevere:piazzale/est/itin/gc/a/2_gca_bloc
 
 # VERIFICA POSIZIONE DEVIATOI
 ## Riutilizzato da 1_gca
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pinkusfloydicus:pianadeltevere/piazzale/est/itin/gc/a/1_gca_dev
+execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/itin/gc/a/1_gca_dev
 
 # BLOCCAMENTO DEVIATOI e ABILITAZIONE
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pinkusfloydicus:pianadeltevere/piazzale/est/itin/gc/a/2_gca_result
+execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/itin/gc/a/2_gca_result
 
 ###
 
@@ -28,4 +28,4 @@ execute unless block 477 52 -118 redstone_block run setblock 479 51 -133 polishe
 ###
 
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear

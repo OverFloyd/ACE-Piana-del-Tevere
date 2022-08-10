@@ -1,13 +1,13 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear
 
 ###
 
 # COLLEGAMENTO DI SICUREZZA
-function pinkusfloydicus:pianadeltevere/piazzale/est/dev/cds/3
+function pianadeltevere:piazzale/est/dev/cds/3
 
 # DEVIATOIO INGLESE
-execute if block 477 52 -118 redstone_block run function pinkusfloydicus:pianadeltevere/piazzale/est/dev/3_r_ing
+execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/dev/3_r_ing
 
 # MANOVRA
 execute if block 477 52 -118 redstone_block run setblock 501 62 -110 minecraft:redstone_torch
@@ -27,4 +27,4 @@ execute if block 501 64 -110 rail[shape=north_west] run setblock 466 51 -118 min
 ###
 
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear

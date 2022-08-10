@@ -1,11 +1,11 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear
 
 ###
 
 # CONTROLLO POSIZIONE (3 R, 4, 11 N)
 ## Set buffer
-execute if block 466 52 -118 redstone_block run execute if block 465 53 -118 redstone_block run execute if block 464 53 -118 redstone_block run function pinkusfloydicus:pianadeltevere/apparato/buffer/set
+execute if block 466 52 -118 redstone_block run execute if block 465 53 -118 redstone_block run execute if block 464 53 -118 redstone_block run function pianadeltevere:apparato/buffer/set
 
 ###
 

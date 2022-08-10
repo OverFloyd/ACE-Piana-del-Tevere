@@ -1,10 +1,10 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear
 
 ###
 
 # CONTROLLO SE BLOCCO ORIENTATO DA CANCELLETTI (bin. sx)
-execute if block 487 52 -122 redstone_block run execute if block 487 53 -122 air run function pinkusfloydicus:pianadeltevere/apparato/buffer/set
+execute if block 487 52 -122 redstone_block run execute if block 487 53 -122 air run function pianadeltevere:apparato/buffer/set
 
 ###
 

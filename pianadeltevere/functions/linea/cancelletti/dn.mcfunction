@@ -3,10 +3,10 @@
 function pinkusfloydicus:linee/ba/pianadeltevere_cancelletti/chunkloader
 
 ## VERIFICA OCCUPAZIONE SEZIONI
-function pinkusfloydicus:pianadeltevere/linea/cancelletti/dn_ver
+function pianadeltevere:linea/cancelletti/dn_ver
 
 ## MANOVRA INVERSIONE DI BLOCCO
-execute if block 477 52 -118 redstone_block run function pinkusfloydicus:pianadeltevere/linea/cancelletti/dn_seg
+execute if block 477 52 -118 redstone_block run function pianadeltevere:linea/cancelletti/dn_seg
 
 ## SCARICAMENTO CHUNKS
 function pinkusfloydicus:linee/ba/pianadeltevere_cancelletti/chunkunloader
@@ -17,4 +17,4 @@ function pinkusfloydicus:linee/ba/pianadeltevere_cancelletti/chunkunloader
 execute if block 477 52 -118 redstone_block run setblock 487 52 -121 minecraft:redstone_block
 execute if block 477 52 -118 redstone_block run setblock 487 53 -121 minecraft:air
 
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear

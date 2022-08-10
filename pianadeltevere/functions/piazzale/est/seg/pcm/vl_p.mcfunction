@@ -1,14 +1,14 @@
 # CONTROLLO OCCUPAZIONE ITINERARIO
 ## Set buffer
-function pinkusfloydicus:pianadeltevere/piazzale/est/seg/pcm/qc/vl_p
+function pianadeltevere:piazzale/est/seg/pcm/qc/vl_p
 
 # VERIFICA AVVENUTA COSTRUZIONE ITINERARI
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pinkusfloydicus:pianadeltevere/piazzale/est/seg/pcm/itin/vl_p
+execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/seg/pcm/itin/vl_p
 
 # QUADRO CONSENSI
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pinkusfloydicus:pianadeltevere/piazzale/est/seg/pcm/vl_p_res
+execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/seg/pcm/vl_p_res
 
 ###
 
@@ -24,4 +24,4 @@ execute if block 477 52 -118 air run say > Nessun itinerario impostato
 ###
 
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear

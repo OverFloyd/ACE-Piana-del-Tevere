@@ -1,8 +1,8 @@
 # BLOCCAMENTO DEVIATOI
-function pinkusfloydicus:pianadeltevere/piazzale/est/dev/aghi/1b_bloc
-function pinkusfloydicus:pianadeltevere/piazzale/est/dev/aghi/1a_bloc
-function pinkusfloydicus:pianadeltevere/piazzale/est/dev/aghi/2b_bloc
-function pinkusfloydicus:pianadeltevere/piazzale/est/dev/aghi/2a_bloc
+function pianadeltevere:piazzale/est/dev/aghi/1b_bloc
+function pianadeltevere:piazzale/est/dev/aghi/1a_bloc
+function pianadeltevere:piazzale/est/dev/aghi/2b_bloc
+function pianadeltevere:piazzale/est/dev/aghi/2a_bloc
 
 # QUADRO CONSENSI
 setblock 484 53 -133 air

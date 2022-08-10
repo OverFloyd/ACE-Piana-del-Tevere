@@ -3,13 +3,18 @@ execute if block 493 61 -113 air run setblock 493 61 -113 red_concrete
 
 # DISABILITAZIONE SEGNALE
 ## Segnale
-execute if block 493 61 -113 lime_concrete run function pinkusfloydicus:pianadeltevere/piazzale/est/seg/singoli/boe/occ/2
-execute if block 493 61 -113 red_concrete run function pinkusfloydicus:pianadeltevere/piazzale/est/seg/singoli/boe/lib/pcm_cev_gc
+execute if block 493 61 -113 lime_concrete run function pianadeltevere:piazzale/est/seg/singoli/boe/occ/2
+execute if block 493 61 -113 red_concrete run function pianadeltevere:piazzale/est/seg/singoli/boe/lib/pcm_cev_gc
 
 ## Consenso
 execute if block 493 61 -113 lime_concrete run setblock 493 61 -113 air
 
 ###
 
+# OCCUPAZIONE CDB 2
+function pianadeltevere:piazzale/cdb/boe/2_e
+
+###
+
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear

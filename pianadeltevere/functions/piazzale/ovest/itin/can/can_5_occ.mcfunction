@@ -1,8 +1,8 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear
 
 # Check QC & reset buffer (controllo se il segnale è effettivamente posta a VI)
-execute if block 454 53 -118 redstone_block run function pinkusfloydicus:pianadeltevere/apparato/buffer/set
+execute if block 454 53 -118 redstone_block run function pianadeltevere:apparato/buffer/set
 
 ###
 

@@ -1,8 +1,8 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear
 
 # Controllo sul deviatoio opposto che la posizione non vada in conflitto con il deviatoio adiacente
-execute if block 462 64 -113 rail[shape=north_west] run function pinkusfloydicus:pianadeltevere/apparato/buffer/set
+execute if block 462 64 -113 rail[shape=north_west] run function pianadeltevere:apparato/buffer/set
 
 ###
 

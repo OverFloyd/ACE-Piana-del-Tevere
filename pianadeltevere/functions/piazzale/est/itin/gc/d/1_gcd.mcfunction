@@ -1,5 +1,5 @@
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear
 
 ###
 
@@ -8,11 +8,11 @@ function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
 
 # VERIFICA ITINERARI
 ## Set buffer
-function pinkusfloydicus:pianadeltevere/piazzale/est/itin/gc/d/1_gcd_itin
+function pianadeltevere:piazzale/est/itin/gc/d/1_gcd_itin
 
 # DISABILITAZIONE E CONSENSO
 ## Check buffer
-execute if block 477 52 -118 redstone_block run function pinkusfloydicus:pianadeltevere/piazzale/est/itin/gc/d/1_gcd_result
+execute if block 477 52 -118 redstone_block run function pianadeltevere:piazzale/est/itin/gc/d/1_gcd_result
 
 ###
 
@@ -26,4 +26,4 @@ setblock 478 51 -133 air
 ###
 
 # Clear buffer
-function pinkusfloydicus:pianadeltevere/apparato/buffer/clear
+function pianadeltevere:apparato/buffer/clear
