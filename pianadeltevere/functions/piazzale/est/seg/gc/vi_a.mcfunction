@@ -1,5 +1,5 @@
 # CONTROLLO OCCUPAZIONE ITINERARIO
-function pianadeltevere:piazzale/est/seg/pcm/qc/vi_a
+function pianadeltevere:piazzale/est/seg/gc/qc/vi_a
 
 # MANOVRA A VI
 ## Check buffer

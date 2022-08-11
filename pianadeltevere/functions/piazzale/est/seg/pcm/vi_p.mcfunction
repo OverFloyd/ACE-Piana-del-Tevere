@@ -1,6 +1,6 @@
 # CONTROLLO OCCUPAZIONE ITINERARIO
 ## Set buffer
-function pianadeltevere:piazzale/est/seg/pcm/qc/vi_p
+function pianadeltevere:apparato/qc/sez/b1/occ/check/4
 
 # VERIFICA AVVENUTA COSTRUZIONE ITINERARI
 ## Check buffer

@@ -2,4 +2,5 @@
 function pianadeltevere:piazzale/est/seg/singoli/2d
 
 # QUADRO CONSENSI
-setblock 472 52 -118 minecraft:air
+function pianadeltevere:piazzale/est/seg/pcm/qc/occ/p
+function pianadeltevere:apparato/qc/sez/b1/occ/4_occ

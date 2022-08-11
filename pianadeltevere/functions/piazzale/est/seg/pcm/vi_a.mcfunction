@@ -1,6 +1,6 @@
 # CONTROLLO OCCUPAZIONE ITINERARIO
 ## Set buffer
-function pianadeltevere:piazzale/est/seg/pcm/qc/vi_a
+function pianadeltevere:apparato/qc/sez/b1/occ/check/5
 
 # MANOVRA A VI
 ## Check buffer
