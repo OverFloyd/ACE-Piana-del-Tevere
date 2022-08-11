@@ -8,7 +8,7 @@ execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est
 
 # QUADRO CONSENSI
 ## Check buffer
-execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/pcm/vi_p_res
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/pcm/qc/rip/p
 
 ###
 

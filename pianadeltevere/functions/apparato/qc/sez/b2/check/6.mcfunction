@@ -4,10 +4,5 @@ function pianadeltevere:apparato/buffer/clear
 ###
 
 # VERIFICA STATO OCCUPAZIONE
+## Set buffer
 execute store result score @p buffer_10 run execute if block 457 50 -119 lime_concrete
-
-###
-
-# ANOMALIA
-## Check buffer
-execute unless score @p buffer_10 matches 1 run say "Leva occupata"

@@ -1,11 +1,8 @@
-# Clear buffer
-function pianadeltevere:apparato/buffer/clear
-
-# Check QC & reset buffer (controllo se il segnale è effettivamente posto a VI)
-execute if block 472 53 -118 redstone_block run function pianadeltevere:apparato/buffer/set
+## Verifica occupazione su QC
+function pianadeltevere:apparato/qc/sez/b1/occ/check/4
 
 ###
 
 # ANOMALIA: Itinerario impegnato (QC / console)
-execute if block 472 53 -118 air run execute if block 472 52 -118 air run setblock 484 51 -133 polished_andesite
-execute if block 472 53 -118 air run execute if block 472 52 -118 air run say > Itinerario impegnato
+execute unless score @p buffer_10 matches 1 run setblock 484 51 -133 polished_andesite
+execute unless score @p buffer_10 matches 1 run say > Itinerario impegnato
