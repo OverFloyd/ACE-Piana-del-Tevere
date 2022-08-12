@@ -1,4 +1,9 @@
-## Verifica occupazione su QC
+# Clears buffer
+function pianadeltevere:apparato/buffer/clear
+
+###
+
+# Verifica occupazione su QC
 function pianadeltevere:apparato/qc/sez/b1/occ/check/4
 
 ###

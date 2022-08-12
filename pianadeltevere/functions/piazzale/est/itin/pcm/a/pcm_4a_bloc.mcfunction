@@ -6,7 +6,7 @@ function pianadeltevere:apparato/buffer/clear
 # CONTROLLO BLOCCO DEVIATOI
 ## 1a, 2b
 ### Set buffer
-execute unless block 503 61 -107 red_concrete run execute unless block 502 61 -107 red_concrete run function pianadeltevere:apparato/buffer/set
+execute if block 503 61 -107 lime_concrete run execute if block 502 61 -107 lime_concrete run function pianadeltevere:apparato/buffer/set
 
 ###
 
@@ -14,9 +14,9 @@ execute unless block 503 61 -107 red_concrete run execute unless block 502 61 -1
 ## Dev 1b
 ### Segnalazione (console)
 #### Check buffer
-execute unless score @p buffer_10 matches 1 run execute if block 505 61 -110 red_concrete run say > Dev. 1b già bloccato da un altro itinerario
+execute unless score @p buffer_10 matches 1 run execute if block 505 61 -110 lime_concrete run say > Dev. 1b già bloccato da un altro itinerario
 
 ## Dev 2b
 ### Segnalazione (console)
 #### Check buffer
-execute unless score @p buffer_10 matches 1 run execute if block 502 61 -107 red_concrete run say > Dev. 2b già bloccato da un altro itinerario
+execute unless score @p buffer_10 matches 1 run execute if block 502 61 -107 lime_concrete run say > Dev. 2b già bloccato da un altro itinerario

@@ -6,9 +6,17 @@ function pianadeltevere:apparato/qc/sez/b1/occ/check/5
 ## Check buffer
 execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/pcm/prot_sd
 
+# VERIFICA AVVENUTA COSTRUZIONE ITINERARI
+## Check buffer
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/pcm/itin/vl_a
+
 # QUADRO CONSENSI
 ## Check buffer
-execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/pcm/qc/rip/a
+### Itinerario costruito
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/pcm/qc/lib/a
+
+### Nessun itinerario costruito
+execute if score @p buffer_10 matches 0 run function pianadeltevere:piazzale/est/seg/pcm/qc/rip/a
 
 ###
 

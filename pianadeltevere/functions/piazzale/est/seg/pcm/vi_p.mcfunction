@@ -8,7 +8,11 @@ execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est
 
 # QUADRO CONSENSI
 ## Check buffer
-execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/pcm/qc/rip/p
+### Itinerario costruito
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/pcm/qc/lib/p
+
+### Nessun itinerario costruito
+execute if score @p buffer_10 matches 0 run function pianadeltevere:piazzale/est/seg/pcm/qc/rip/p
 
 ###
 

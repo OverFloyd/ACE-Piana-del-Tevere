@@ -3,12 +3,14 @@ function pianadeltevere:apparato/buffer/clear
 
 ###
 
-# VERIFICA EFFETTIVO IMPEGNO
-## TODO
-
-# VERIFICA ITINERARI
+# VERIFICA SEGNALE POSTO A VIA LIBERA
 ## Set buffer
 function pianadeltevere:piazzale/est/itin/gc/d/1_gcd_itin
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/gc/check/part
+
+# VERIFICA EFFETTIVO IMPEGNO
+## Check buffer
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/itin/gc/occ/1_gc
 
 # DISABILITAZIONE E CONSENSO
 ## Check buffer

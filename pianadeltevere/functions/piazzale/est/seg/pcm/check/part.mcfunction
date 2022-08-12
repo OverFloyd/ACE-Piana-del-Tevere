@@ -1,3 +1,8 @@
+# Clear buffer
+function pianadeltevere:apparato/buffer/clear
+
+###
+
 # VERIFICA PROTEZIONE A VI
 ## Check QC
 execute unless block 472 52 -118 redstone_block run function pianadeltevere:apparato/buffer/set

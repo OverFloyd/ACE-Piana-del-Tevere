@@ -19,7 +19,6 @@ setblock 472 51 -118 minecraft:air
 ## Segnalazione (QC / console)
 ### Check buffer
 execute unless score @p buffer_10 matches 1 run setblock 472 51 -118 minecraft:polished_andesite
-execute unless score @p buffer_10 matches 1 run say > Nessun itinerario impostato
 
 ###
 

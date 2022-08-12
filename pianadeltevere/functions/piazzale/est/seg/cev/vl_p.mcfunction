@@ -1,6 +1,6 @@
 # CONTROLLO OCCUPAZIONE ITINERARIO
-# Set buffer
-function pianadeltevere:piazzale/est/seg/cev/qc/vl_p
+## Set buffer
+function pianadeltevere:apparato/qc/sez/b1/occ/check/3
 
 # VERIFICA AVVENUTA COSTRUZIONE ITINERARI
 ## Check buffer
@@ -8,7 +8,7 @@ execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est
 
 # QUADRO CONSENSI
 ## Check buffer
-execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/cev/vl_p_res
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/cev/qc/occ/p
 
 ###
 
@@ -19,7 +19,6 @@ setblock 473 51 -118 minecraft:air
 ## Segnalazione (QC / console)
 ### Check buffer
 execute unless score @p buffer_10 matches 1 run setblock 473 51 -118 minecraft:polished_andesite
-execute unless score @p buffer_10 matches 1 run say > Nessun itinerario impostato
 
 ###
 

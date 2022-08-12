@@ -5,7 +5,7 @@ function pianadeltevere:apparato/buffer/clear
 
 # VERIFICA SEGNALE POSTO A VIA LIBERA
 ## Set buffer
-function pianadeltevere:piazzale/est/itin/cev/d/prot_cev
+function pianadeltevere:piazzale/est/seg/cev/check/prot
 
 # VERIFICA EFFETTIVO IMPEGNO
 ## Check buffer

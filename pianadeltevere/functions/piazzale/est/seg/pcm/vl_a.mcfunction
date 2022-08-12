@@ -26,7 +26,7 @@ setblock 471 51 -118 minecraft:air
 
 ## Segnalazione (QC / console)
 ### Check buffer
-execute unless score @p buffer_10 matches 1 run setblock 471 51 -118 minecraft:polished_andesite
+execute unless score @p buffer_10 matches 1 run setblock 471 51 -118 polished_andesite
 
 ###
 

@@ -1,5 +1,10 @@
+# Clear buffer
+function pianadeltevere:apparato/buffer/clear
+
+###
+
 # VERIFICA SEGNALE POSTO A VIA IMPEDITA
-## Checks QC
+## Check QC
 execute if block 470 52 -118 air run function pianadeltevere:apparato/buffer/set
 
 ###

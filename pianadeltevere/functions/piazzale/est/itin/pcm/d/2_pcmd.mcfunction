@@ -6,7 +6,7 @@ function pianadeltevere:apparato/buffer/clear
 # VERIFICA ITINERARI
 ## Set buffer
 function pianadeltevere:piazzale/est/itin/pcm/d/2_pcmd_itin
-execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/itin/pcm/d/part_pcm
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/seg/pcm/check/part
 
 # VERIFICA EFFETTIVO IMPEGNO
 ## Check buffer

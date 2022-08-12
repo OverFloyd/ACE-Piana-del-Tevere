@@ -9,4 +9,8 @@ setblock 477 53 -133 air
 setblock 477 52 -133 redstone_block
 
 ## Ripetizione occupazione deviatoi
+### 4
 function pianadeltevere:apparato/qc/sez/b1/occ/11_occ
+
+## Segnalazione segnale
+function pianadeltevere:piazzale/est/seg/cev/qc/lib/p
