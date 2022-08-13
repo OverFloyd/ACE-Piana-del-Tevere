@@ -4,11 +4,11 @@ function pianadeltevere:apparato/buffer/clear
 ###
 
 # COLLEGAMENTO DI SICUREZZA
-## Sets buffer
+## Set buffer
 function pianadeltevere:piazzale/est/dev/cds/4
 
 # MANOVRA
-## Checks buffer
+## Check buffer
 execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est/dev/pos/4n
 
 # QUADRO CONSENSI

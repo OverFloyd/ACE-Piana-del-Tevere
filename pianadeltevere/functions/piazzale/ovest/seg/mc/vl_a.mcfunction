@@ -1,6 +1,6 @@
 # CONTROLLO OCCUPAZIONE ITINERARIO
 # Set buffer
-function pianadeltevere:piazzale/ovest/seg/mc/qc/vl_a
+function pianadeltevere:apparato/qc/sez/b2/occ/check/8
 
 # VERIFICA AVVENUTA COSTRUZIONE ITINERARI
 ## Check buffer
@@ -16,11 +16,11 @@ execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ove
 
 # QUADRO CONSENSI
 ## Check buffer
-execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/seg/mc/vl_a_res
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/seg/mc/qc/occ/a
 
 # NOTIFICA UM
 ## Check buffer
-execute if score @p buffer_10 matches 1 run setblock 451 52 -126 air
+execute if score @p buffer_10 matches 1 run function pianadeltevere:apparato/at/mc/d
 
 ###
 

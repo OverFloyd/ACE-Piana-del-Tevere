@@ -10,3 +10,13 @@ function pianadeltevere:piazzale/ovest/dev/aghi/5a_bloc
 # QUADRO CONSENSI
 setblock 464 53 -133 air
 setblock 464 52 -133 redstone_block
+
+## Ripetizione occupazione deviatoi
+### 5, 6, 9, 10
+function pianadeltevere:apparato/qc/sez/b2/occ/1_occ
+function pianadeltevere:apparato/qc/sez/b2/occ/2_occ
+function pianadeltevere:apparato/qc/sez/b2/occ/5_occ
+function pianadeltevere:apparato/qc/sez/b2/occ/6_occ
+
+## Segnalazione segnale
+#function pianadeltevere:piazzale/ovest/seg/can/qc/lib/p

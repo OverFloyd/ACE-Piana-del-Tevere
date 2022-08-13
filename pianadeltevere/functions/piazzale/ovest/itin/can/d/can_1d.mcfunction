@@ -6,20 +6,20 @@ function pianadeltevere:apparato/buffer/clear
 # VERIFICA SEGNALE POSTO A VIA LIBERA
 ## Set buffer
 function pianadeltevere:piazzale/ovest/itin/can/d/can_1d_itin
-execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/itin/can/d/prot_can
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/seg/can/check/prot
 
 # VERIFICA EFFETTIVO IMPEGNO
-## Checks buffer
+## Check buffer
 execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/itin/can/occ/can_1
 
 # DISABILITAZIONE E CONSENSO
-## Checks buffer
+## Check buffer
 execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/itin/can/d/can_1d_result
 
 ###
 
-## Segnalazione generica (Quadro Consensi)
-### Checks buffer
+## ANOMALIA: generica (Quadro Consensi)
+### Check buffer
 execute unless score @p buffer_10 matches 1 run setblock 457 51 -133 polished_andesite
 
 # Reset eventuale precedente anomalia

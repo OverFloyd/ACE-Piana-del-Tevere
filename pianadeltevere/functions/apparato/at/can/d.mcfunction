@@ -1,0 +1,1 @@
+setblock 451 52 -125 air

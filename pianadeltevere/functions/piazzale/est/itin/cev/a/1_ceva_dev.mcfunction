@@ -12,6 +12,6 @@ execute if block 465 53 -118 redstone_block run function pianadeltevere:apparato
 # ANOMALIE
 ## Dev 4
 ### Segnalazione (QC / console)
-#### Checks buffer
+#### Check buffer
 execute unless score @p buffer_10 matches 1 run execute unless block 465 53 -118 redstone_block run setblock 465 51 -118 polished_andesite
 execute unless score @p buffer_10 matches 1 run execute unless block 465 53 -118 redstone_block run say > Dev. 4 richiesto in posizione NORMALE

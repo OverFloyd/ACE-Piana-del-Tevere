@@ -22,7 +22,7 @@ execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est
 setblock 473 51 -133 air
 
 # ANOMALIA: generica (Quadro Consensi)
-## Checks buffer
+## Check buffer
 execute unless score @p buffer_10 matches 1 run setblock 475 51 -133 polished_andesite
 
 ###

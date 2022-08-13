@@ -1,4 +1,4 @@
-# Clears buffer
+# Clear buffer
 function pianadeltevere:apparato/buffer/clear
 
 ###

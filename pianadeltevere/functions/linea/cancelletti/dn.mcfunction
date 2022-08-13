@@ -1,6 +1,6 @@
 # PREDISPOSIZIONE PBA
 ## CARICAMENTO CHUNKS DA REMOTO
-function pinkusfloydicus:linee/ba/pianadeltevere_cancelletti/chunkloader
+function linea:ba/pianadeltevere_cancelletti/chunkloader
 
 ## VERIFICA OCCUPAZIONE SEZIONI
 function pianadeltevere:linea/cancelletti/dn_ver
@@ -9,7 +9,7 @@ function pianadeltevere:linea/cancelletti/dn_ver
 execute if score @p buffer_10 matches 1 run function pianadeltevere:linea/cancelletti/dn_seg
 
 ## SCARICAMENTO CHUNKS
-function pinkusfloydicus:linee/ba/pianadeltevere_cancelletti/chunkunloader
+function linea:ba/pianadeltevere_cancelletti/chunkunloader
 
 ###
 

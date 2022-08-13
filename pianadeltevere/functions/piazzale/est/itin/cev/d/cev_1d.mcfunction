@@ -18,7 +18,7 @@ execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/est
 ###
 
 # ANOMALIA: generica (Quadro Consensi)
-## Checks buffer
+## Check buffer
 execute unless score @p buffer_10 matches 1 run setblock 473 51 -133 polished_andesite
 
 # Reset eventuale precedente anomalia
