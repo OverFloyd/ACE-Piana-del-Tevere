@@ -17,4 +17,4 @@ function pianadeltevere:apparato/qc/sez/b2/occ/5_lib
 function pianadeltevere:apparato/qc/sez/b2/occ/6_lib
 
 ## Segnalazione segnale
-function pianadeltevere:piazzale/ovest/seg/can/qc/rip/p
+function pianadeltevere:piazzale/ovest/seg/can/qc/rip/a
