@@ -35,7 +35,7 @@ execute unless score @p buffer_10 matches 1 run setblock 471 51 -118 polished_an
 ###
 
 #+ SIMULAZIONE +#
-function pianadeltevere:simulation/prot/ovest
+function pianadeltevere:simulation/prot/pcm
 
 ###
 

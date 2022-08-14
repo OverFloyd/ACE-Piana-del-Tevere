@@ -1,0 +1,1 @@
+data modify entity @e[type=minecart, name="CAN", limit=1] CustomName set value '"4"'

@@ -16,5 +16,10 @@ function pianadeltevere:piazzale/cdb/boe/5_e
 
 ###
 
+#+ SIMULAAZIONE +#
+function pianadeltevere:simulation/int/name/5_est
+
+###
+
 # Clear buffer
 function pianadeltevere:apparato/buffer/clear
