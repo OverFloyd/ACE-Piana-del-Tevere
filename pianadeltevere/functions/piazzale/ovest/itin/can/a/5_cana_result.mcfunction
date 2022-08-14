@@ -10,8 +10,8 @@ setblock 469 52 -133 redstone_block
 
 ## Ripetizione occupazione deviatoi
 ### 7, 8, 9, 10
-function pianadeltevere:apparato/qc/sez/b2/occ/1_occ
-function pianadeltevere:apparato/qc/sez/b2/occ/2_occ
+function pianadeltevere:apparato/qc/sez/b2/occ/3_occ
+function pianadeltevere:apparato/qc/sez/b2/occ/4_occ
 function pianadeltevere:apparato/qc/sez/b2/occ/5_occ
 function pianadeltevere:apparato/qc/sez/b2/occ/6_occ
 
