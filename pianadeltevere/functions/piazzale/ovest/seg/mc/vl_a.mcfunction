@@ -18,9 +18,15 @@ execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ove
 ## Check buffer
 execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/seg/mc/qc/occ/a
 
+###
+
 # NOTIFICA UM
 ## Check buffer
 execute if score @p buffer_10 matches 1 run function pianadeltevere:apparato/at/mc/d
+
+# LEOPOLDER
+## Check buffer
+execute if score @p buffer_10 matches 1 run function pianadeltevere:apparato/leopolder/mc_a
 
 ###
 

@@ -1,0 +1,1 @@
+setblock 489 67 -122 observer[facing=east]

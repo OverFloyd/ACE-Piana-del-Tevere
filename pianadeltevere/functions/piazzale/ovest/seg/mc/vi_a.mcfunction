@@ -20,6 +20,12 @@ execute if score @p buffer_10 matches 0 run function pianadeltevere:piazzale/ove
 
 ###
 
+# LEOPOLDER
+## Check buffer
+execute if score @p buffer_10 matches 1 run function pianadeltevere:apparato/leopolder/mc_d
+
+###
+
 # ANOMALIE
 ## Reset eventuale precedente anomalia
 setblock 455 51 -118 minecraft:air
