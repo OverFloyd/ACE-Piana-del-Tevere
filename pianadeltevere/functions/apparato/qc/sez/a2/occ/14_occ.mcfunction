@@ -1,1 +1,1 @@
-setblock 484 50 -132 lime_concrete
+setblock 484 50 -132 red_concrete

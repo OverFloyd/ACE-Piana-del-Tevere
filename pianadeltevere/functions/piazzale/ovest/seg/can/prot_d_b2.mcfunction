@@ -8,5 +8,8 @@ execute if block 367 69 -129 red_concrete run function pianadeltevere:piazzale/o
 ## Riabilitazione PBA precedente
 execute if block 367 69 -129 lime_concrete run function linea:ba/pianadeltevere_cancelletti/pb/p100da
 
+#+ SIMULAZIONE +#
+function pianadeltevere:simulation/porta/can
+
 # RESET CONSENSO
 execute if block 367 69 -129 lime_concrete run setblock 367 69 -129 air

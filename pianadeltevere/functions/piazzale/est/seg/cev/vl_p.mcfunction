@@ -22,5 +22,10 @@ execute unless score @p buffer_10 matches 1 run setblock 473 51 -118 minecraft:p
 
 ###
 
+#+ SIMULAZIONE +#
+function pianadeltevere:simulation/int/est
+
+###
+
 # Clear buffer
 function pianadeltevere:apparato/buffer/clear

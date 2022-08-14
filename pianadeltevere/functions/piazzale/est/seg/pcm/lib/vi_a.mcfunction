@@ -9,7 +9,6 @@ function pianadeltevere:apparato/buffer/clear
 function pianadeltevere:apparato/qc/sez/b1/occ/check/5
 
 # QUADRO CONSENSI
-
 execute if score @p buffer_10 matches 0 run function pianadeltevere:piazzale/est/seg/pcm/qc/lib/a
 
 # LIBERAZIONE ITINERARIO

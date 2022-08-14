@@ -8,7 +8,7 @@ execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ove
 
 # VERIFICA AVVENUTA COSTRUZIONE ITINERARI
 ## Check buffer
-execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/seg/can/itin/vl_a
+execute if score @p buffer_10 matches 1 run function pianadeltevere:piazzale/ovest/seg/can/itin/vi_a
 
 # QUADRO CONSENSI
 ## Check buffer
