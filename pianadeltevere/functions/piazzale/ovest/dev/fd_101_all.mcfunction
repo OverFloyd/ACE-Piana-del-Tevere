@@ -5,7 +5,7 @@ function pianadeltevere:apparato/buffer/clear
 
 # Controllo manovra indebita
 ## Set buffer
-execute if block 406 68 -120 minecraft:redstone_torch run execute if block 405 70 -119 rail[shape=south_west] run function pianadeltevere:apparato/buffer/set
+execute if block 406 68 -120 minecraft:redstone_torch if block 405 70 -119 rail[shape=south_west] run function pianadeltevere:apparato/buffer/set
 
 ###
 

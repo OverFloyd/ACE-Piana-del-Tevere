@@ -12,4 +12,4 @@ function pianadeltevere:apparato/buffer/clear
 ######### 2 -> Marmicavi NO
 ########## 3 -> Marmicavi NO
 # Set Buffer
-execute if block 473 52 -133 air run execute if block 475 52 -133 air run execute if block 476 52 -133 air run execute if block 477 52 -133 air run execute if block 478 52 -133 air run execute if block 479 52 -133 air run execute if block 480 52 -133 air run execute if block 481 52 -133 air run execute if block 482 52 -133 air run function pianadeltevere:apparato/buffer/set
+execute if block 473 52 -133 air if block 475 52 -133 air if block 476 52 -133 air if block 477 52 -133 air if block 478 52 -133 air if block 479 52 -133 air if block 480 52 -133 air if block 481 52 -133 air if block 482 52 -133 air run function pianadeltevere:apparato/buffer/set

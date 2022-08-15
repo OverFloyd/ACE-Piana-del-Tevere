@@ -4,7 +4,7 @@ function pianadeltevere:apparato/buffer/clear
 ###
 
 # CONTROLLO SE BLOCCO ORIENTATO DA CANCELLETTI (bin. dx)
-execute if block 487 52 -121 redstone_block run execute if block 487 53 -121 air run function pianadeltevere:apparato/buffer/set
+execute if block 487 52 -121 redstone_block if block 487 53 -121 air run function pianadeltevere:apparato/buffer/set
 
 ###
 

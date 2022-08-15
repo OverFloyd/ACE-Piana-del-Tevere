@@ -9,7 +9,7 @@ function pianadeltevere:piazzale/ovest/dev/cds/101
 
 # MANOVRA
 ## Check buffer
-execute if score @p buffer_10 matches 1 run execute if block 405 70 -119 rail[shape=south_east] run setblock 406 68 -120 air
+execute if score @p buffer_10 matches 1 if block 405 70 -119 rail[shape=south_east] run setblock 406 68 -120 air
 
 # QUADRO CONSENSI
 execute if block 406 68 -120 air run setblock 456 53 -118 minecraft:air
